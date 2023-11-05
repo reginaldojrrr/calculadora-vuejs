@@ -30,7 +30,7 @@ function calcular() {
 <template>
     <div class="row">
         <div class="col-md-2 mb-3">
-            <input @input="calcular()" v-model="operacao.valorA" class="form-control" type="number" id="inputA" placeholder="0">
+            <input @input="calcular()" v-model="operacao.valorA" class="form-control" type="tel" id="inputA" placeholder="0">
         </div>
         <div class="col-md-2 mb-3">
             <select @change="calcular()" v-model="operacao.operador" class="form-select" id="operation">
@@ -42,7 +42,7 @@ function calcular() {
             </select>
         </div>
         <div class="col-md-2">
-            <input @input="calcular()" v-model="operacao.valorB" class="form-control" type="number" id="inputB" placeholder="0">
+            <input @input="calcular()" v-model="operacao.valorB" class="form-control" type="tel" id="inputB" placeholder="0">
         </div>
     </div>
     <div class="row">

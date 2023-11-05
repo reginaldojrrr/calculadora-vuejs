@@ -48,7 +48,7 @@ function calcular() {
     <div class="row">
         <div class="col-12">
             <h3 v-if="operacao.valorA.length !== 0 && operacao.valorB.length !== 0">O resultado é:</h3>
-            <h3 v-else="operacao.valorA.length == 0 && operacao.valorB.length == 0">Digite um número...</h3>
+            <h3 v-else="operacao.valorA.length == 0 && operacao.valorB.length == 0">Digite dois números...</h3>
         </div>
     </div>
     <div class="row">
